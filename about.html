@@ -1,62 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sampaguita - Philippine National Flower</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Philippines National Flower</title>
+    <link href='resources/css/style.css' rel='stylesheet'>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="jumbotron col-md-12 text-center">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">Sampaguita</a>
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <div class='page'>
+      <div class='header'>
+        <!--navigation-->
+        <div class="nav">
+          <a href='index.html' class='logo'>
+            <!--instead of image logo i used text for now-->
+            <div>Sampaguita</div>
+          </a>
+          <!-- hamburger menu bar-->
+          <label for='hamburger'>&#9776;</label>
+          <input type='checkbox' id='hamburger'/>
+          <!--end for hambuger menu bar-->
+          <!-- nav menu-->
+          <ul class='page-menu'>
+            <li class='menu'>
+              <a href='index.html'>Home</a>
+            </li>
+            <li class='active'>
+              <a href='about.html'>About</a>
+            </li>
+          </ul>
         </div>
+        <!-- end for navigation div-->
       </div>
-      <div class="row">
-        <div class=" jumbotron col-md-4">
-          <img src='../First_VS_Code_Project/resources/images/sampaguita-jasmine-flowers.jpg'>
+      <div class='body'>
+        <div class='image'>
+          <figure>
+            <img src='resources/images/jasmine.jpg' alt='Sampaguita'>
+            <img src='resources/images/sampaguita-jasmine-flowers.jpg' alt='Jasmine - Sampaguita flower'>
+            <img src='resources/images/white-jasmine-flower.jpg' alt='white sampaguita flower'>
+            <figcaption>Sampaguita Flowers (Jasminum sambac)</figcaption>
+          </figure>
         </div>
-        <div class="jumbotron col-md-4">
-          <img src='../First_VS_Code_Project/resources/images/white-jasmine-flower.jpg'>
-        </div>
-        <div class="jumbotron col-md-4">
-          <img src='../First_VS_Code_Project/resources/images/white-jasmine-flowers-in-garden.jpg'>
-        </div>
-      </div>
-      <div class="row">
-        <div class="jumbotron col-md-12">
+        <div class='article'>
           <p><strong>Jasminum sambac</strong> (Arabian jasmine or Sambac jasmine) is a species of jasmine native to tropical Asia, from the Indian subcontinent to Southeast Asia. It is cultivated in many places, especially across much of South and Southeast Asia. It is naturalised in many scattered locales: Mauritius, Madagascar, the Maldives, Christmas Island, Chiapas, Central America, southern Florida, the Bahamas, Cuba, Hispaniola, Jamaica, Puerto Rico, and the Lesser Antilles.</p>
           <p><strong>Jasminum sambac</strong> is a small shrub or vine growing up to 0.5 to 3 m (1.6 to 9.8 ft) in height. It is widely cultivated for its attractive and sweetly fragrant flowers. The flowers may be used as a fragrant ingredient in perfumes and jasmine tea. In India it is very popular and is known as Mogra. It is the national flower of the Philippines, where it is known as <strong>sampaguita,</strong> as well as being one of the three national flowers of Indonesia, where it is known as melati putih.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="jumbotron col">
-          <p>Copyright Lowella Fox @2021</p>
-        </div>
+      <div class='footer'>
+        <p>Copyright Lowella Fox 2021</p>
+        <p>reference from <a href='https://en.wikipedia.org/wiki/Jasminum_sambac'>wikepedia</a></p>
       </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
 </html>
